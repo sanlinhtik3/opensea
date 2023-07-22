@@ -41,6 +41,15 @@
   color: #888;
 } */
 
+@font-face {
+  font-family: "config-rounded";
+  font-weight: normal;
+  src: url("/src/assets/fonts/config-rounded/ConfigRoundedRegular.ttf");
+}
+*{
+  font-family: config-rounded;
+}
+
 .swiper {
   width: 100%;
   height: 100%;

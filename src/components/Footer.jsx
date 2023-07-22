@@ -6,20 +6,20 @@ const Footer = () => {
         <>
             <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
                 <div class="mx-auto max-w-screen-2xl">
-                    <div className="grid lg:grid-cols-2 lg:gap-10 text-center md:text-left">
+                    <div className="grid gap-5 text-center lg:grid-cols-2 lg:gap-10  md:text-left">
                         <div className="space-y-5">
-                            <h3 className='text-2xl'>Stay in loop</h3>
-                            <p>
+                            <h3 className='text-2xl font-bold'>Stay in loop</h3>
+                            <p className=' text-gray-600'>
                                 Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating OpenSea.
                             </p>
                             <div className=" flex items-center gap-2">
-                                <input type="email" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" />
+                                <input type="email" id="helper-text" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@example.com" />
                                 <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button>
                             </div>
                         </div>
                         <div className="space-y-5">
                             <h3 className='text-2xl'>Join the comunity</h3>
-                            <div className="flex gap-2 justify-center md:justify-start">
+                            <div className="flex gap-2 justify-center md:justify-start flex-wrap">
                                 {[1, 2, 3, 4, 5, 6].map((d, index) => (
                                     <div key={index+3432424} className=" w-14 h-14 flex justify-center items-center rounded-xl bg-blue-100">
                                         <AcademicCapIcon className=' w-7 h-7 text-blue-500' />
@@ -31,9 +31,9 @@ const Footer = () => {
                     <hr class="my-10 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                     <div class="md:flex md:justify-between">
                         <div class="mb-6 md:mb-0">
-                            <a href="https://flowbite.com" class="flex items-center">
-                                <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" />
-                                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                            <a href="#" class="flex items-center">
+                                <img src="https://assets-global.website-files.com/6297ced5c59919a3d53d5cc7/6297ced5c5991921513d5ce0_opensea_Logo_Icon.svg" class="mr-3 h-8" alt="FlowBite Logo" />
+                                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">OpenSea</span>
                             </a>
                         </div>
                         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -41,7 +41,7 @@ const Footer = () => {
                                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                                 <ul class="text-gray-600 dark:text-gray-400">
                                     <li class="mb-4">
-                                        <a href="https://flowbite.com" class="hover:underline">Flowbite</a>
+                                        <a href="#" class="hover:underline">Flowbite</a>
                                     </li>
                                     <li>
                                         <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
@@ -74,7 +74,7 @@ const Footer = () => {
                     </div>
                     <hr class="my-10 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                     <div class="sm:flex sm:items-center sm:justify-between">
-                        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+                        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com" class="hover:underline">OpenSea™</a>. All Rights Reserved.
                         </span>
                         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                             <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
